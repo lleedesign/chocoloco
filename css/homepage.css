@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+
+h1 {
+	text-align: center;
+	color: white;
+	line-height: 1.25em;
+	text-shadow: 2px 2px 8px black;
+}
+
+.banner {
+	background-image: url("../img/hero.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+.stripes {
+	height: 20px;
+	margin-bottom: 40px;
+	background-image: url("../img/stripes-mini.svg");
+	background-repeat: repeat-x;  
+}
+
+
+.col {
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 479px) { 
+
+	.banner {
+		padding: 5em 0;
+	}
+
+
+}

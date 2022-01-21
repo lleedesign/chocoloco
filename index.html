@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>chocoloco</title>
+	
+	<link href='https://fonts.googleapis.com/css?family=PT Sans Caption' rel='stylesheet'>
+	
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/homepage.css">
+	<link rel="stylesheet" href="css/form.css" />
+	<link rel="stylesheet" href="css/flexbox.css">
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/submit-script.js" defer></script>
+
+	<link href="img/favicon.png" rel="icon" type="image/x-icon"/>
+</head>
+
+<body>
+	
+	<header>
+		<div class="main-header">
+			<a href="index.html"><img class="logo" src="img/Logo-FC.svg" alt="chocologo logo"></a>
+			<ul class="main-nav">
+				<li><a href="#" id="truffles">Truffles</a></li>
+				<li><a href="seasonal.html" id="seasonal">seasonal</a></li>
+				<li><a href="on-a-stick.html" id="stick">...On A Stick!</a></li>
+				<li><a href="" >
+						<!-- <div class="main-nav-bag"></div> -->
+						<img class="main-nav-bag" src="img/icon-bag.svg" alt="add to shopping bag"></a>
+				</li>			
+				<!-- <li><a href="" >
+						<div class="main-nav-search"></div>
+						<img class="main-nav-search" src="img/icon-search.svg" alt="search website"></a>
+				</li>	 -->
+			</ul>
+		</div>
+	</header> 
+
+	<div class="banner">
+		<h1 class="headline">We&#39;re not crazy, <br> just crazy about chocolate</h1>
+	</div>
+
+	<div class="stripes"></div>
+
+
+	<div class="rows">		
+		<div class="primary col">
+			<h2>Handcrafted in St. Louis!</h2>
+			<p>There&#39;s a reason why Chocoloco is known for serving up the finest truffles in St. Louis. Every lick of our decadent creations is handcrafted using only the finest quality, 100% all-natural ingredients.</p>
+			<p>We start with the purest of creams and stir in flavors from some of St. Louis&#39;s most loved treats. Finally, we sprinkle in lots of love to make melt-in-your-mouth creamy treats for anyone who&#39;s feeling like a sweet treat.</p>
+			<p>Every day, we churn up sweet, truffle combinations including vegan and non-dairy options. Get the 411 on what flavors we&#39;re currently serving up or stop in to see what&#39;s tempting today!</p>
+			<p>A little love goes a long way in today&#39;s world. At Chocoloco, we&#39;re all about creativity, compassion and community. We try to do our part by being mindful and intentional about what goes into our truffles and how we create each tasty treat.</p>
+		</div>
+		
+		<div class="secondary col">
+			<figure>
+				<img class="feat-img" src="img/storefront.jpg" alt="chocolate shop">
+				<figcaption>Above: <a href="https://unsplash.com/photos/HFj0n4FS9uQ">Photo by Marquise de Photographie on Unsplash</a></figcaption>
+				<figcaption>Banner: <a href="https://unsplash.com/photos/jD2dIC2IZME">Photo by Merve Aydin on Unsplash</a></figcaption>
+			</figure>
+		
+			
+		</div>
+	</div>
+	
+	<footer class="main-footer">
+		<div class="footer-inner">
+			<img class="footer-logo" src="img/Logo-White.svg" alt="chocologo logo">
+			<ul>
+				<li>Sweet Links</li>
+				<li><a href="on-a-stick.html">Gifts</a></li>
+				<li><a href="#">Deals</a></li>
+				<li><a href="seasonal.html">Specials</a></li>
+				<li><a href="on-a-stick.html">Fun Ideas</a></li>
+			</ul>
+			<ul>
+				<li>Contact Us</li>
+				<li>
+					<address><a href="https://www.google.com/maps">
+						Chocoloco Truffles <br> 
+						1234 Choco Lane <br> 
+						St. Louis, MO 63129 </a><br> 
+						<a>555.555.5555</a><br> 
+						<a href="mailto:llee139@my.stlcc.edu">chocoloco@chocolate.com</a>
+					</address>
+				</li>
+			</ul>
+	
+			<ul>
+				<form id="reg" class="regform" method="post"> 
+					<div class="formRow">
+						<label>Join Our Newsletter!</label>
+						<input name="email" id="email" type="email" placeholder="Email" tabindex="5" required />
+					</div>
+					<div class="buttonContainer">
+					   <input value="Submit" onclick="onSubmitClick()" type="submit" id="submit"  tabindex="10"/>
+					</div>
+			  	</form>
+				<a href="https://www.facebook.com/"><img class="social" src="img/icon-fb.svg" alt="Facebook logo"></a> 
+				<a href="https://www.instagram.com//"><img class="social" src="img/icon-ig.svg" alt="Instagram logo"></a> 
+				<a href="https://www.twitter.com/"><img class="social" src="img/icon-tw.svg" alt="Twitter logo"></a> 
+			</ul>
+		</div>
+		<span>&copy;2021 chocoloco truffles</span>
+	</footer>
+	
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>chocoloco &#8212; seasonal</title>
+	
+	<link href='https://fonts.googleapis.com/css?family=PT Sans Caption' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/seasonal.css">
+	<link rel="stylesheet" href="css/form.css" />
+	<link rel="stylesheet" href="css/flexbox.css">
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/image_swap.js"></script>
+	<script src="js/submit-script.js" defer></script>
+
+	<link href="img/favicon.png" rel="icon" type="image/x-icon"/>
+</head>
+
+<body>
+	
+	<header>
+		<div class="main-header">
+			<a href="index.html"><img class="logo" src="img/Logo-FC.svg" alt="chocologo logo"></a>
+			<ul class="main-nav">
+				<li><a href="#" id="truffles">Truffles</a></li>
+				<li><a href="seasonal.html" id="seasonal">seasonal</a></li>
+				<li><a href="on-a-stick.html" id="stick">...On A Stick!</a></li>
+				<li><a href=""><img class="main-nav-bag" src="img/icon-bag.svg" alt="add to shopping bag"></a></li>			
+			</ul>
+		</div>
+	</header>  
+
+	<div class="banner-stripe">
+		<h1 class="headline">Special Seasonal Treats</h1>
+	</div>
+
+	<div class="rows">		
+		<div class="primary col">
+			<p>
+				<img class="big-img" src="img/carousel-val1.jpg" alt="" id="image">
+			</p>
+			<ul id="image_list">
+				<li><a href="img/carousel-val1.jpg" title="Chocoloco's Signature SweetHeart Truffles" data-figcaption="Photo by Marquise de Photographie on Unsplash">
+					<img src="img/dot-pink.svg" class="dot" alt="selection button"></a></li>
+				<li><a href="img/carousel-val2.jpg" title="Heart-Shaped Fudge Pieces" data-figcaption="Photo by Oleg Magni on Pexels">
+					<img src="img/dot-pink.svg" class="dot" alt="selection button"></a></li>
+				<li><a href="img/carousel-val3.jpg" title="Truffle Box Party Favors" data-figcaption="Photo by Ana Paula on Pexels">
+					<img src="img/dot-pink.svg" class="dot" alt="selection button"></a></li>
+				<li><a href="img/carousel-val4.jpg" title="Strawberry and Raspberry Flavor Truffles" data-figcaption="Photo by Sharon Grimshaw on FreeImages">
+					<img src="img/dot-pink.svg" class="dot" alt="selection button"></a></li>
+				<li><a href="img/carousel-val5.jpg" title="NEW! Heart Cake with Truffle Cream Filling" data-figcaption="Photo by Ofir Eliav on Pexels">
+					<img src="img/dot-pink.svg" class="dot" alt="selection button"></a></li>
+				<li><a href="img/carousel-val6.jpg" title="Signature Heart Box...Can't go wrong!" data-figcaption="Photo by Budgeron Bach on Pexels">
+					<img src="img/dot-pink.svg" class="dot" alt="selection button"></a></li>
+			</ul>
+			<h2 id="title">Chocoloco's Signature SweetHeart Truffles</h2>  
+			<figcaption id="figcaption"><a href="https://unsplash.com">Photo by Marquise de Photographie on Unsplash</a></figcaption>
+		</div>
+		
+		<div class="secondary col">
+			<h2 id="funfont">Valentines Day <br> Limited Edition Treats</h2>
+			<h3>Browse through this year's collection!</h3>
+			<p>Celebrate the season in the sweetest way with festive Valentine's chocolate gifts to share with the ones you love most. 
+				Your loved ones will be sure to enjoy our signature Chocologo candy gifts this season of love!</p>
+		</div>
+	</div>
+
+	<footer class="main-footer">
+		<div class="footer-inner">
+			<img class="footer-logo" src="img/Logo-White.svg" alt="chocologo logo">
+			<ul>
+				<li>Sweet Links</li>
+				<li><a href="on-a-stick.html">Gifts</a></li>
+				<li><a href="#">Deals</a></li>
+				<li><a href="seasonal.html">Specials</a></li>
+				<li><a href="on-a-stick.html">Fun Ideas</a></li>
+			</ul>
+			<ul>
+				<li>Contact Us</li>
+				<li>
+					<address><a href="https://www.google.com/maps">
+						Chocoloco Truffles <br> 
+						1234 Choco Lane <br> 
+						St. Louis, MO 63129 </a><br> 
+						<a>555.555.5555</a><br> 
+						<a href="mailto:llee139@my.stlcc.edu">chocoloco@chocolate.com</a>
+					</address>
+				</li>
+			</ul>
+	
+			<ul>
+				<form id="reg" class="regform" method="post"> 
+					<div class="formRow">
+						<label>Join Our Newsletter!</label>
+						<input name="email" id="email" type="email" placeholder="Email" tabindex="5" required />
+					</div>
+					<div class="buttonContainer">
+					   <input value="Submit" onclick="onSubmitClick()" type="submit" id="submit"  tabindex="10"/>
+					</div>
+			  	</form>
+				  <a href="https://www.facebook.com/"><img class="social" src="img/icon-fb.svg" alt="Facebook logo"></a> 
+				  <a href="https://www.instagram.com//"><img class="social" src="img/icon-ig.svg" alt="Instagram logo"></a> 
+				  <a href="https://www.twitter.com/"><img class="social" src="img/icon-tw.svg" alt="Twitter logo"></a> 
+			</ul>
+		</div>
+		<span>&copy;2021 chocoloco truffles</span>
+	</footer>
+
+
+</body>
+</html>

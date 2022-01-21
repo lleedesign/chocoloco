@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>chocoloco...on a stick!</title>
+	
+	<link href='https://fonts.googleapis.com/css?family=PT Sans Caption' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/seasonal.css">
+	<link rel="stylesheet" href="css/form.css" />
+	<link rel="stylesheet" href="css/flexbox.css">
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/submit-script.js" defer></script>
+
+	<link href="img/favicon.png" rel="icon" type="image/x-icon"/>
+</head>
+
+<body>
+	
+	<header>
+		<div class="main-header">
+			<a href="index.html"><img class="logo" src="img/Logo-FC.svg" alt="chocologo logo"></a>
+			<ul class="main-nav">
+				<li><a href="#" id="truffles">Truffles</a></li>
+				<li><a href="seasonal.html" id="seasonal">seasonal</a></li>
+				<li><a href="on-a-stick.html" id="stick">...On A Stick!</a></li>
+				<li><a href=""><img class="main-nav-bag" src="img/icon-bag.svg" alt="add to shopping bag"></a></li>				
+			</ul>
+		</div>
+	</header>   
+
+	<div class="banner-stripe">
+		<h1 class="headline">Yes, treats ...On A Stick!</h1>
+	</div>
+
+	<div class="three-columns">		
+		<div class="stick1 col">
+			<h2>Mallows</h2>
+			<img class="feat-img" src="img/stick-img1.jpg" alt="peppermint chocolate marshmallow on a stick">
+			<p>Mallows with Choco-truffles, of course! They are great ways to celebrate 
+				the gushiest day of the year, dunking mallows in choco-late and dusting 
+				them with heart-shaped sprinkles can be just as fun. We'll have your next 
+				holiday covered.
+				Mallow Pops are fun and delicious snack for any age (note &#34;snack&#34; and not 
+				&#34;dessert,&#34; which means it&#39;s appropriate to eat them anytime after 9 a.m.). 
+				Craving a savory treat? We have salted pretzel rod options!
+			<figcaption id="figcaption"><a href="https://unsplash.com/photos/-w-zLYI-KfA">Photo by American Heritage Chocolate <br> on Unsplash</a></figcaption>
+			</p>
+		</div>
+		
+		<div class="stick2 col">
+			<h2>Crispies</h2>
+			<img class="feat-img" src="img/stick-img2.jpg" alt="chocolate dipped rice krispy on a stick">
+			<p>Chocolate Dipped Rice Krispie Treats elevate an afternoon snack to a decadent dessert that will be perfect to serve at any party.
+				We turned these choco-coated marshmallow crips treats into a lollipop bartopped with your pick of sprinkles, candies, or nuts.
+			<figcaption id="figcaption"><a href="https://unsplash.com/photos/uHHC3xS9u3o">Photo by American Heritage Chocolate <br> on Unsplash</a></figcaption>
+			</p>
+		</div>
+		
+		<div class="stick3 col">
+			<h2>Choco-pops!</h2>
+			<img class="feat-img" src="img/stick-img3.jpg" alt="chocolate truffle ball on a stick">
+			<p>Cake pops are fun, but do you know what&#39;s even better? Truffle pops. I know, right!? Maybe we're biased, but we're not wrong.
+				These are great giveaways for parties or cute little treats to have around the house. Lot of ways to customize these: pick your flavor, dip, sprikle, color....all of it!
+			<figcaption id="figcaption"><a href="https://www.pexels.com/photo/round-chocolate-coated-pastry-on-white-stick-33715/">Photo by Pixabay from Pexels</a></figcaption>
+			</p>
+		</div>
+	</div>
+
+	<footer class="main-footer">
+		<div class="footer-inner">
+			<img class="footer-logo" src="img/Logo-White.svg" alt="chocologo logo">
+			<ul>
+				<li>Sweet Links</li>
+				<li><a href="on-a-stick.html">Gifts</a></li>
+				<li><a href="#">Deals</a></li>
+				<li><a href="seasonal.html">Specials</a></li>
+				<li><a href="on-a-stick.html">Fun Ideas</a></li>
+			</ul>
+			<ul>
+				<li>Contact Us</li>
+				<li>
+					<address><a href="https://www.google.com/maps">
+						Chocoloco Truffles <br> 
+						1234 Choco Lane <br> 
+						St. Louis, MO 63129 </a><br> 
+						<a>555.555.5555</a><br> 
+						<a href="mailto:llee139@my.stlcc.edu">chocoloco@chocolate.com</a>
+					</address>
+				</li>
+			</ul>
+	
+			<ul>
+				<form id="reg" class="regform" method="post"> 
+					<div class="formRow">
+						<label>Join Our Newsletter!</label>
+						<input name="email" id="email" type="email" placeholder="Email" tabindex="5" required />
+					</div>
+					<div class="buttonContainer">
+					   <input value="Submit" onclick="onSubmitClick()" type="submit" id="submit"  tabindex="10"/>
+					</div>
+			  	</form>
+				  <a href="https://www.facebook.com/"><img class="social" src="img/icon-fb.svg" alt="Facebook logo"></a> 
+				  <a href="https://www.instagram.com//"><img class="social" src="img/icon-ig.svg" alt="Instagram logo"></a> 
+				  <a href="https://www.twitter.com/"><img class="social" src="img/icon-tw.svg" alt="Twitter logo"></a> 
+			</ul>
+		</div>
+		<span>&copy;2021 chocoloco truffles</span>
+	</footer>
+
+
+</body>
+</html>
